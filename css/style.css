@@ -1,1 +1,65 @@
 /* Add custom styles here */
+body{
+    overflow-x: hidden;
+}
+nav ul{
+    margin-left:10%;
+}
+nav ul li{
+    margin-left: 5%;
+}
+#box{
+    margin-bottom:10px;
+    margin-left:10px;
+}
+#btn1{
+    margin-right: 6%;
+}
+.heading {
+    font-size: 50px;
+    margin-bottom:5%;
+}
+
+h2+h4{
+    color: rgb(179, 176, 176);
+}
+#box-container{
+    margin:10% 0 ;
+}
+footer{
+    color: white;
+}
+footer a{
+    text-decoration: none;
+    color: white;
+}
+footer img{
+    width:100px;height: 100px;
+    
+}
+
+@media screen and (max-width:720px) {
+    .heading span{
+        display: none;
+    }
+    #btn1,#btn2{
+        font-size:80%;
+       
+    }
+    
+}
+@media screen and (max-width:410px) {
+    
+    #btn1,#btn2{
+        
+       scale:0.8;
+    }
+
+    h2+h4{
+        font-size:17px;
+    }
+    .heading{
+        font-size:25px;
+    }
+   
+}
